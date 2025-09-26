@@ -1,0 +1,113 @@
+/* definamos los colores y el fondo */
+h1 {
+   font-size: 20px;
+   font-family: sans-serif;
+   color: rgb(58, 23, 23);
+   text-align: center;
+}
+
+/* quitar las líneas de subtítulos sin dañar el estilo */
+h2, h3, .subtitulo {
+   border: none;
+}
+
+h2 {
+   font-weight: bold;
+   font-size: 14px;
+   font-family: sans-serif;
+}
+
+/* si deseo estilizar varios elementos a la vez */
+header,
+section,
+footer,
+aside,
+nav,
+article,
+hgroup {
+   display: block;  /*para colocar todos los elementos del bloque */
+}
+
+/* alinear los textos del cuerpo */
+body {
+   text-align: center;
+   background: rgb(211, 209, 209); /* color de fondo del cuerpo*/
+   width: 940px;
+   border: 1px solid black;
+   margin: 15px auto;
+}
+
+/* estilamos el header */
+.header {
+   background: #fffbb9;
+   border: 1px solid #994141;
+   padding: 5px;
+   vertical-align: auto;
+}
+
+.header h1 {
+   text-align: center;
+}
+
+.manú {
+   background: #bdc3c7;
+   padding: 5px 15px;
+   text-align: left;
+}
+
+.menú li {
+   list-style: none;
+   padding: 5px;
+   font: bold 12px verdana;
+   border: 1px solid rgb(14, 13, 13);
+   display: inline-block;
+}
+
+.section {
+   width: 600px;
+   margin: 20px;
+   float: left;
+}
+
+article {
+   background: #f5f3e5;
+   border: 1px solid #999;
+   margin-bottom: 15px;
+}
+
+time {
+   color: #999;
+}
+
+article footer {
+   text-align: right;
+}
+
+.columna {
+   width: 300px;
+   float: left;
+   margin: 20px 0px;
+}
+
+.columna blockquote {
+   border: 0px solid black;
+   padding: 40px;
+   background: #fffbb9;
+}
+
+/* pie de página */
+.pie {
+   clear: both;
+   padding: 20px;
+   background: #2d3436;
+   color: #ffffff;
+   text-align: center; /* centra el texto */
+}
+
+/* Estilizar el logotipo */
+img {
+   width: 200px;
+   display: block;
+   margin: auto;
+   height: 140px;
+}
